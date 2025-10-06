@@ -21,7 +21,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+import os # <-- Make sure 'import os' is at the top of the file
 
+# ... other imports like streamlit, requests, etc.
+
+# --- VITAL FIX: Read the LIVE URL from the environment variable ---
+# It falls back to localhost:8000 ONLY if the variable is not set (e.g., during local testing).
+API_BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8000")
+# -------------------------------------------------------------------
+
+# The rest of your login logic should use this variable, e.g.:
+# response = requests.post(f"{API_BASE_URL}/auth/login", json=payload)
 # API Configuration
 API_BASE_URL = "http://localhost:8000"
 
