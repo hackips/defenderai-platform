@@ -1,0 +1,13 @@
+Core Frameworks for the FastAPI API and Streamlit Dashboard
+FastAPI and ASGI/WSGI servers for Render deployment
+fastapi
+uvicorn[standard]
+gunicorn
+
+Streamlit for the dashboard
+streamlit
+
+Common Data Science/ML Libraries (Ensure these match your model's needs!)
+pandas
+numpy
+scikit-learn
