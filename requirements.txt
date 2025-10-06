@@ -13,3 +13,5 @@ numpy
 scikit-learn
 cryptography
 PyJWT
+plotly
+matplotlib
