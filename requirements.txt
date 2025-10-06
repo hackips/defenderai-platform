@@ -1,13 +1,13 @@
-Core Frameworks for the FastAPI API and Streamlit Dashboard
-FastAPI and ASGI/WSGI servers for Render deployment
+Core dependencies for DefenderAI platform deployment
+FastAPI and Gunicorn/Uvicorn for the API backend
 fastapi
 uvicorn[standard]
 gunicorn
 
-Streamlit for the dashboard
+Streamlit for the frontend dashboard
 streamlit
 
-Common Data Science/ML Libraries (Ensure these match your model's needs!)
+Common Data Science/ML Libraries
 pandas
 numpy
 scikit-learn
