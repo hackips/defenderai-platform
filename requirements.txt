@@ -1,13 +1,13 @@
-Core dependencies for DefenderAI platform deployment
-FastAPI and Gunicorn/Uvicorn for the API backend
+#Core dependencies for DefenderAI platform deployment
+#FastAPI and Gunicorn/Uvicorn for the API backend
 fastapi
 uvicorn[standard]
 gunicorn
 
-Streamlit for the frontend dashboard
+#Streamlit for the frontend dashboard
 streamlit
 
-Common Data Science/ML Libraries
+#Common Data Science/ML Libraries
 pandas
 numpy
 scikit-learn
